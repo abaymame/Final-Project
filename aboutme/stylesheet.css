@@ -1,0 +1,31 @@
+#title {
+  margin: 20px;
+}
+
+#photoandtext {
+  width: 50%;
+  margin: 0 auto;
+}
+#photo {
+  height: auto;
+  width: auto;
+  max-width: 500px;
+}
+
+#caption {
+  background-color: #ffffff;
+  padding: 4px auto;
+  font-style: italic;
+}
+
+#everything {
+  background-color: #e8e8e8;
+  width: 60%;
+  padding: 1px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+#main-text {
+  margin: 40px 60px;
+}

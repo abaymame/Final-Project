@@ -1,0 +1,64 @@
+*{ margin: 0; padding: 0;
+}
+
+#container {
+	margin: 0px auto;
+	border: none;
+}
+.background{
+  width: 100vw; height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-image: url("https://cdn3.eyeem.com/thumb/4b396eb245d8c496a84d66fb6a5663b072acce22-1562744972204/w/850");
+  z-index: -500;
+}
+
+#videoElement {
+	background-color: transparent;
+  opacity: .5;
+  position: fixed;
+  width: 100vw; height: 100vh;
+  border: none;
+  border-radius: 75%;
+}
+.image-blurred-edge {
+    videoElement: url('http://lorempixel.com/200/200/city/9');
+    width: 200px;
+    height: 200px;
+    /* you need to match the shadow color to your background or image border for the desired effect*/
+    box-shadow: 0 0 8px 8px white inset;
+}
+.snowflake {
+  position: fixed;
+  background-color: #FFFFFF;
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 120px;
+  height: 120px;
+  line-height: 120px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  transition: .4s;
+}
+
+.btn:hover {
+    background: #b3e1ff;
+}
+
+.music {
+
+}

@@ -1,0 +1,12 @@
+.st0{fill:#FFFFFF;}
+
+.st0:hover{
+  animation: colorshift 2s ease infinite;
+}
+
+@keyframes colorshift {
+  0%{ fill: orange;}
+  40%{fill: red;}
+  80%{fill: purple;}
+  100%{fill: orange;}
+}
